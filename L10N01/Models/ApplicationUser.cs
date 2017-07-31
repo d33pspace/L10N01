@@ -9,5 +9,17 @@ namespace L10N01.Models
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser
     {
+        public string FullName { get; set; }
+        public string Currency { get; set; }
+        public string Culture { get; set; }
+
+        /*
+        public ICollection<Donation> Donations { get; set; }
+
+        public ApplicationUser()
+        {
+            Donations = new HashSet<Donation>();
+        }
+        */
     }
 }
