@@ -35,9 +35,6 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\Models\" />
-  </ItemGroup>
-  <ItemGroup>
     <EmbeddedResource Update="Resources\Controllers.HomeController.zh-CN.resx">
       <Generator>ResXFileCodeGenerator</Generator>
     </EmbeddedResource>
